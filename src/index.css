@@ -1,0 +1,78 @@
+
+
+.card {
+  border: 1px solid hsl(0,0%, 80%);
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px hsla(0, 0%, 0%, 0.1);
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  margin: 250px ;
+  display: inline-block;
+}
+
+.card-image {
+  max-width: 40%;
+  height: auto;
+  border-radius: 20px;
+  margin-bottom: 10px;
+}
+
+.card .card-title {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  color: hsl(0, 0%, 20%);
+}
+
+.card .card-text {
+  font-family: Arial, sans-serif;
+  color: hsl(0, 0%, 20%);
+}
+
+
+.student {
+  font-family: Arial, sans-serif;
+  font-size: 2em;
+  padding: 10px;
+  border: 1px solid hsla(0, 0%, 50%, 0.8);
+}
+
+.student p {
+  margin: 0;
+}
+
+.welcome-prop {
+  background-color: green;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  width: max-content;
+}
+
+.welcome-error {
+  background-color: red;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  width: max-content;
+}
+
+.list-category{
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: hsl(0,0%,20%);
+    margin-bottom: 10px;
+    text-align: center;
+    border: 3px solid;
+    background-color: hsl(185, 100%, 50%);
+}
+
+.list-item li {
+  font-size: 2rem;
+  list-style: none;
+  color: hsl(0, 0%, 25%);
+  text-align: center;
+  margin: 0;
+}
